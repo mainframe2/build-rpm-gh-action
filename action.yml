@@ -1,6 +1,6 @@
 name: 'Build RPM Zentos7'
 description: 'Build RPM package for on Cenots7. Supports RPM macros with --define.'
-author: 'matijavibe - Matija Milcic'
+author: 'Frame'
 inputs:
   sources:
     required: true
@@ -18,7 +18,7 @@ outputs:
     description: 'path to the built RPM package'
 runs:
   using: 'docker'
-  image: 'docker://ghcr.io/matijavibe/build-rpm:v1'
+  image: 'docker://ghcr.io/mainframe2/build-rpm:v1'
 branding:
   icon: 'package'
   color: 'red'

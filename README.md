@@ -1,6 +1,6 @@
 # build-rpm
 
-<a href="https://github.com/matijavibe/build-rpm/actions"><img alt="build-rpm status" src="https://github.com/matijavibe/build-rpm/workflows/test/badge.svg"></a>
+<a href="https://github.com/mainframe2/build-rpm-gh-action/actions"><img alt="build-rpm status" src="https://github.com/mainframe2/build-rpm-gh-action/workflows/test/badge.svg"></a>
 
 </p>
 
@@ -23,7 +23,7 @@ Basic:
 
 ```yml
 - steps:
-    - uses: matijavibe/build-rpm@v1
+    - uses: mainframe2/build-rpm-gh-action@v1
       id: build_rpm
       with:
         spec_file: my_app.spec
@@ -45,7 +45,7 @@ With variables:
 
 ```yml
 - steps:
-    - uses: matijavibe/build-rpm@v1
+    - uses: mainframe2/build-rpm-gh-action@v1
       id: build_rpm
       with:
         spec_file: my_app.spec
